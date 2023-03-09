@@ -6,9 +6,9 @@ A simple search algorithm that searches a `query` from given list of `data` and 
 
 The best matches are arranged in the following **Priority Order**
 
-1. If element of list starts with the query gets **Priority = 1**
-2. If element of list contains the query gets **Priority = 2**
-3. Fuzzy search results gets **Priority = 3**
+**Priority = 1** If element of list starts with the query
+**Priority = 2** If element of list contains the query
+**Priority = 3** Fuzzy search results
 
 ## Usage
 
