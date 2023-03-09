@@ -1,6 +1,6 @@
 # simple-search
 
-A simple search algorithm that searches a `query` from given list of `data` and returns indexes of best matches.
+A simple search algorithm that searches a `query` from given list of `data` and returns indexes of the best matches.
 
 ## Usage
 
