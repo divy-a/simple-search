@@ -2,6 +2,14 @@
 
 A simple search algorithm that searches a `query` from given list of `data` and returns indexes of the best matches.
 
+## Features
+
+The best matches are arranged in the following **Priority Order**
+
+1. If element of list starts with the query gets **Priority = 1**
+2. If element of list contains the query gets **Priority = 2**
+3. Fuzzy search results gets **Priority = 3**
+
 ## Usage
 
 1. Install dependencies by `pip install -r requirements.txt`
